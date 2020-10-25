@@ -23,23 +23,26 @@
                 <li><a href="index.html">Portfolio</a></li>
             </ul>
         </nav>
-        <h1 id="header-text">P1-4</h1>
+        <h1 id="header-text">Portfolio</h1>
     </header>
     <main>
         <h1>Kontakt</h1>
-        <p>Kontaktieren könnt ihr mich entweder über meine Email <a href="mailto:jannik.weisser@hs-furtwangen.de">Jannik
-                Weisser, jannik.weisser@hs-furtwangen.de</a> oder über das Kontaktformular auf <a
-                href="https://www.weisser.cf/">meiner Website</a></p>
-        <p>Alternativ hier ein Kontaktformular ohne Funktion:</p>
+        <p>Kontaktieren könnt ihr mich über meine Email <a href="mailto:jannik.weisser@hs-furtwangen.de">Jannik
+                Weisser, jannik.weisser@hs-furtwangen.de</a></p>
+        <p>Alternativ hier ein Kontaktformular von <a href="https://www.onlex.de/index.php">Onlex</a>, welches die Daten
+            an die oben genannte Email sendet:</p>
         <div>
-            <form class="contactform">
-                <input class="contactform-element" type="text" id="input-name" placeholder="Name">
-                <input class="contactform-element" type="email" id="input-email" placeholder="Email">
-                <textarea class="contactform-element" rows="4" placeholder="Nachricht"></textarea>
-                <p class="contactform-element">Dieses Kontaktformular ist nur grafisch und bietet keine Funktion. Für
-                    ein funktionierendes Formular benutze bitte das auf meiner Website, welches ich oben verlinkt habe
-                </p>
+            <form class="contactform" method="post" accept-charset="UTF-8"
+                action="https://www.onlex.de/_formmailer.php?username=janwdev"
+                enctype="application/x-www-form-urlencoded">
+                <input class="contactform-element" name="name" type="text" id="input-name" placeholder="Name" required>
+                <input class="contactform-element" name="eMail" type="email" id="input-email" placeholder="Email" required>
+                <textarea class="contactform-element" name="Nachricht" rows="4" placeholder="Nachricht" required></textarea>
+
+                <p>Passwort- / Spamschutz: Bitte gib <i>contactpw</i> ein</p>
+                <input class="contactform-element" type="password" name="onlex_password" size="30" maxlength="15" required>
                 <button class="contactform-element">Senden</button>
+                <button class="contactform-element" type="reset">Daten löschen</button>
             </form>
         </div>
     </main>
