@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Anderes</title>
+    <link rel="stylesheet" href="https://www.jweisser.net/stylesheets/general.css">
+    <link rel="stylesheet" href="../stylesheet/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <input type="checkbox" id="hamburg">
+        <label for="hamburg" class="hamburg">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </label>
+        <nav class="topmenu">
+            <ul class="menulist">
+                <li><a href="https://blog.jweisser.net">Blog</a></li>
+                <li><a id="nav-main-li-a-actual" href="https://portfolio.jweisser.net">Portfolio</a></li>
+                <li><a href="https://www.jweisser.net">Home</a></li>
+            </ul>
+        </nav>
+        <h1 id="header-text">Portfolio</h1>
+    </header>
+    <main>
+        <div class="maxWidth800">
+            <h1>Anderes</h1>
+            <nav class="siteInternNav">
+                <ul>
+                    <li><a href="#WordClock">WordClock</a></li>
+                    <li><a href="#TAPS">Tabs</a></li>
+                    <li><a href="#autoPflanzen">Automatisches Gewächshaus</a></li>
+                    <li><a href="#thisWeb">Diese Website</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="WordClock" class="background1">
+            <div class="maxWidth800">
+                <h2>WordClock</h2>
+                <p>Eine Uhr die die Zeit in Worten anzeigt. Inspiriert von <a
+                        href="https://qlocktwo.com/de/qlocktwo-classic"> Qlocktwo</a>.</p>
+                <img class="imgWordclock" src="../assets/other/pictures/WordClock1.JPG" alt="WordClock">
+                <img class="imgWordclock" src="../assets/other/pictures/WordClock2.JPG" alt="WordClock">
+                <p>Gebaut und programmiert mit einem Arduino, einer Realtimeclock und einem RGB-LED-Streifen von welchem
+                    die Farbe geändert werden kann.</p>
+            </div>
+        </div>
+
+        <div id="TAPS" class="maxWidth800">
+            <h2>TAPS</h2>
+                <p>SIA-Projekt mit dem Technischen Gymnasium der staatlichen Feintechnikschule Schwenningen. <br>
+                    Aufgabe: Integration eines mechanischen Touch-Testers in ein bestehendes Testsystem zum Testen von
+                    Thermotransfer-Etikettendruckern. <br>
+                    Bisheriges Verfahren: <br>
+                <ol>
+                    <li>Senden der Druckerdaten an den Drucker</li>
+                    <li>Emulieren eines Tastendrucks in der Firmware </li>
+                    <li>Vergleich der im Druckerspeicher erstellten Grafik mit einer hinterlegten Referenz</li>
+                </ol>
+                Die Emulation des Tastendrucks soll dabei durch eine reale Bedienung der Tasten über einen Plotter
+                ersetzt
+                werden. <br>
+                Der XY-Plotter wurde selbst gebaut und in Java programmiert. Er kann über eine Touchoberfläche bedient
+                oder
+                über
+                das Netzwerk angesteuert werden.
+                <p>Video des fertigen Plotters:</p>
+                <video class="center-media" controls>
+                    <source src="../assets/CV/video/kompSIACVVideo.mp4" type="video/mp4">
+                    Your browser does not support the video
+                </video>
+        </div>
+
+        <div id="autoPflanzen" class="background1">
+            <div class="maxWidth800">
+                <h2>Automatisches Gewächshaus</h2>
+                <p>Ein Gewächshaus, welches sich autonom mit einem Arduino aufgrund von Sensorwerten selbst steuert.
+                    Dabei können Temperatur, Licht, Luft (Windsimulation) und Bewässerung gesteuert werden.</p>
+            </div>
+        </div>
+        <div id="thisWeb" class="maxWidth800">
+            <h2>Diese Website</h2>
+            <p>Diese Website wurde von mir in purem HTML5 und CSS entwickelt genauso wie <a href="https://www.jweisser.net">meine Homepage</a></p>
+        </div>
+
+        <div id="footer">
+            <p>&copy;Jannik Weisser</p>
+        </div>
+    </main>
+</body>
+
+</html>

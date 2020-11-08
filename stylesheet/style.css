@@ -1,8 +1,8 @@
-main{
+main {
     padding-top: 60px;
 }
 
-#uebersicht{
+#uebersicht {
     display: flex;
     flex-direction: column;
 }
@@ -47,19 +47,8 @@ main{
     margin-top: 10px;
 }
 
-.imgWordclock{
+.imgWordclock {
     height: 400px;
-}
-html, body, main {
-    height: 100%;
-}
-
-#indexMain{
-    position: fixed;
-    padding-top: 60px;
-    background-color: white;
-    min-width: 100%;
-    min-height: 100%;
 }
 
 /* Tablet */
@@ -72,39 +61,29 @@ html, body, main {
     main {
         margin: auto;
     }
-
-    .maxWidth800{
+    .maxWidth800 {
         margin: auto;
         max-width: 800px;
     }
-
-    #uebersicht{
+    #uebersicht {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
         justify-content: space-around;
     }
-
     #cvRemoteControll img {
         display: inline;
         max-width: 49%;
     }
-    #cvAnim:after {
-        content: "";
-        display: table;
-        clear: both;
+    #grusskartentable{
+        display: flex;
+        flex-direction: row;
     }
-    .cvAnimColumn {
-        float: left;
-        width: 50%;
-    }
-
     .imgDrache {
         display: inline;
         max-width: 49%;
     }
-
-    .imgWordclock{
+    .imgWordclock {
         max-width: 50%;
     }
 }
