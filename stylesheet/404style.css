@@ -1,0 +1,23 @@
+html, body, main {
+    margin: 0;
+    height: 100%;
+}
+
+.maxWidth800 {
+    margin: auto;
+    max-width: 800px;
+}
+
+.headerImg50 {
+    margin-top: 80px;
+    background-image: url("https://www.jweisser.net/assets/images/header-krabi.jpg");
+    /* center the background image vertically and horizontally*/
+    background-position: center center;
+    /* removing tilings and repeatition*/
+    background-repeat: no-repeat;
+    /* to scale image to fit the screen */
+    background-size: cover;
+    /* fixed viewport against scroll ups and downs*/
+    background-attachment: fixed;
+    height: 50%;
+}

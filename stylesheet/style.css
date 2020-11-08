@@ -51,6 +51,11 @@ main {
     height: 400px;
 }
 
+.maxWidth800 {
+    margin: auto;
+    max-width: 800px;
+}
+
 /* Tablet */
 
 @media (min-width: 600px) {}
@@ -60,10 +65,6 @@ main {
 @media (min-width: 1025px) {
     main {
         margin: auto;
-    }
-    .maxWidth800 {
-        margin: auto;
-        max-width: 800px;
     }
     #uebersicht {
         display: flex;
