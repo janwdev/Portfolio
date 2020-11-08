@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Carl Valentin GmbH</title>
+    <link rel="stylesheet" href="https://www.jweisser.net/stylesheets/general.css">
     <link rel="stylesheet" href="stylesheet/style.css">
 </head>
+
 <body>
     <header>
         <input type="checkbox" id="hamburg">
@@ -16,50 +19,58 @@
         </label>
         <nav class="topmenu">
             <ul class="menulist">
-                <li><a href="kontakt.html">Kontakt</a></li>
-                <li><a href="ueber.html">Über mich</a></li>
-                <li><a id="nav-main-li-a-actual" href="index.html">Portfolio</a></li>
+                <li><a href="https://blog.jweisser.net">Blog</a></li>
+                <li><a id="nav-main-li-a-actual" href="https://portfolio.jweisser.net">Portfolio</a></li>
+                <li><a href="https://www.jweisser.net">Home</a></li>
             </ul>
         </nav>
         <h1 id="header-text">Portfolio</h1>
     </header>
     <main>
         <div id="CarlValentin">
-            <h1><a id="cv-website-link" href="https://www.carl-valentin.de/">Carl Valentin GmbH</a></h1>
-            <p><a id="cv-ueber-link" href="https://www.carl-valentin.de/unternehmen/ueber-uns/">Über</a></p>
-            <img id="cv-logo" class="center-media"
-                src="https://www.carl-valentin.de/fileadmin/user_upload/logo_sonstiges/cvlogo_example.png"
-                alt="Carl Valentin Logo">
-            <p>Für Carl Valentin entwickelte ich bereits Anwendungen, Apps und Skripte in Java, Flutter, Python und Lua.
-                <br>
-                Desweiteren erstellte ich Filme und Animationen für den Support und als Grußkarten.</p>
-            <p>Hier eine Auswahl meiner Projekte:</p>
-            <nav>
-                <ul id="nav-cv-menu-list">
-                    <li><a href="#cvRemoteControll">RemoteControll (App)</a></li>
-                    <li><a href="#cvProgs">Desktop-Programme (Auswahl)</a></li>
-                    <li><a href="#cvAnim">Animationen (Auswahl)</a></li>
-                    <li><a href="#cvTabs">TABS</a></li>
-                    <li><a href="#cvVideos">Videos (Auswahl)</a></li>
-                </ul>
-            </nav>
-
-            <div id="cvRemoteControll">
-                <h2>RemoteControll - App</h2>
-                <p>Eine App, mit welchen sich die Thermotransferdrucker von Carl Valentin aus der Ferne fernsteuern
-                    lassen. Dafür wurde das Bedieninterface mitsamt der Displaydarstellung der Drucker abgebildet und
-                    die Darstellung jeweils auf Smartphone und Tabletgröße sowie auf die Displayausrichtung angepasst.
-                    Weitere Funktionen sind zum Beispiel das flashen von Firmwareupdates von einem FTP-Server auf den
-                    Drucker sowie die Bedienung mit Maus für eine Portierung auf Windows und Linux.</p>
-                <img src="assets/CV/pictures/RemConIp.PNG" alt="IP Eingabe">
-                <img src="assets/CV/pictures/RemConSearch.PNG" alt="Druckersuche">
-                <img src="assets/CV/pictures/RemConTabH.PNG" alt="Tabletansicht Quer">
-                <img src="assets/CV/pictures/RemConPhoneH.PNG" alt="Smartphoneansicht Quer">
-                <img src="assets/CV/pictures/RemConTabV.PNG" alt="Tabletansicht Hochkant">
-                <img src="assets/CV/pictures/RemConPhoneV.PNG" alt="Smartphoneansicht Hochkant">
+            <div class="maxWidth800">
+                <h1><a id="cv-website-link" href="https://www.carl-valentin.de/">Carl Valentin GmbH</a></h1>
+                <p><a id="cv-ueber-link" href="https://www.carl-valentin.de/unternehmen/ueber-uns/">Über</a></p>
+                <img id="cv-logo" class="center-media"
+                    src="https://www.carl-valentin.de/fileadmin/user_upload/logo_sonstiges/cvlogo_example.png"
+                    alt="Carl Valentin Logo">
+                <p>Für Carl Valentin entwickelte ich bereits Anwendungen, Apps und Skripte in Java, Flutter, Python und
+                    Lua.
+                    <br>
+                    Desweiteren erstellte ich Filme und Animationen für den Support und als Grußkarten.</p>
+                <p>Hier eine Auswahl meiner Projekte:</p>
+                <nav>
+                    <ul id="nav-cv-menu-list">
+                        <li><a href="#cvRemoteControll">RemoteControll (App)</a></li>
+                        <li><a href="#cvProgs">Desktop-Programme (Auswahl)</a></li>
+                        <li><a href="#cvAnim">Animationen (Auswahl)</a></li>
+                        <li><a href="#cvTabs">TABS</a></li>
+                        <li><a href="#cvVideos">Videos (Auswahl)</a></li>
+                    </ul>
+                </nav>
             </div>
 
-            <div id="cvProgs">
+            <div id="cvRemoteControll" class="background1">
+                <div class="maxWidth800">
+                    <h2>RemoteControll - App</h2>
+                    <p>Eine App, mit welchen sich die Thermotransferdrucker von Carl Valentin aus der Ferne fernsteuern
+                        lassen. Dafür wurde das Bedieninterface mitsamt der Displaydarstellung der Drucker abgebildet
+                        und
+                        die Darstellung jeweils auf Smartphone und Tabletgröße sowie auf die Displayausrichtung
+                        angepasst.
+                        Weitere Funktionen sind zum Beispiel das flashen von Firmwareupdates von einem FTP-Server auf
+                        den
+                        Drucker sowie die Bedienung mit Maus für eine Portierung auf Windows und Linux.</p>
+                    <img src="assets/CV/pictures/RemConIp.PNG" alt="IP Eingabe">
+                    <img src="assets/CV/pictures/RemConSearch.PNG" alt="Druckersuche">
+                    <img src="assets/CV/pictures/RemConTabH.PNG" alt="Tabletansicht Quer">
+                    <img src="assets/CV/pictures/RemConPhoneH.PNG" alt="Smartphoneansicht Quer">
+                    <img src="assets/CV/pictures/RemConTabV.PNG" alt="Tabletansicht Hochkant">
+                    <img src="assets/CV/pictures/RemConPhoneV.PNG" alt="Smartphoneansicht Hochkant">
+                </div>
+            </div>
+
+            <div id="cvProgs" class="maxWidth800">
                 <h2>Programme</h2>
                 <div>
                     <h3>jFileTransfer</h3>
@@ -77,19 +88,22 @@
                 </div>
             </div>
 
-            <div id="cvAnim">
-                <h2>Animationen - Grußkarten</h2>
-                <div class="cvAnimColumn">
-                    <h3>Ostern</h3>
-                    <img class="center-media" src="assets/CV/anim/HappyEaster-komp.gif" alt="Osteranimation GIF">
-                </div>
-                <div class="cvAnimColumn">
-                    <h3>Weihnachten</h3>
-                    <img class="center-media" src="assets/CV/anim/WeihnachtsAnimKomp.gif" alt="Weihnachtsanimation GIF">
+            <div id="cvAnim" class="background1">
+                <div class="maxWidth800">
+                    <h2>Animationen - Grußkarten</h2>
+                    <div class="cvAnimColumn">
+                        <h3>Ostern</h3>
+                        <img class="center-media" src="assets/CV/anim/HappyEaster-komp.gif" alt="Osteranimation GIF">
+                    </div>
+                    <div class="cvAnimColumn">
+                        <h3>Weihnachten</h3>
+                        <img class="center-media" src="assets/CV/anim/WeihnachtsAnimKomp.gif"
+                            alt="Weihnachtsanimation GIF">
+                    </div>
                 </div>
             </div>
 
-            <div id="cvTabs">
+            <div id="cvTabs" class="maxWidth800">
                 <h2>TAPS</h2>
                 <p>SIA-Projekt mit dem Technischen Gymnasium der staatlichen Feintechnikschule Schwenningen. <br>
                     Aufgabe: Integration eines mechanischen Touch-Testers in ein bestehendes Testsystem zum Testen von
@@ -114,18 +128,21 @@
                 </video>
             </div>
 
-            <div id="cvVideos">
-                <h2>Support-Videos</h2>
-                <p>Erstellung mehrerer Support-Videos für Kunden mit animiertem Logo im Intro und animierten
-                    Textbannern. Hier ein Beispiel:</p>
-                <div id="cv-youtube-container">
-                    <iframe id="cv-youtube" class="center-media"
-                        src="https://www.youtube-nocookie.com/embed/PfVvAvFlsC8"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
+            <div id="cvVideos" class="background1">
+                <div class="maxWidth800">
+                    <h2>Support-Videos</h2>
+                    <p>Erstellung mehrerer Support-Videos für Kunden mit animiertem Logo im Intro und animierten
+                        Textbannern. Hier ein Beispiel:</p>
+                    <div id="cv-youtube-container">
+                        <iframe id="cv-youtube" class="center-media"
+                            src="https://www.youtube-nocookie.com/embed/PfVvAvFlsC8"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
 </body>
+
 </html>
